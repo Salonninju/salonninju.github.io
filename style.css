@@ -169,6 +169,17 @@ form input:not([type="submit"]), form textarea { padding: 20px 20px; background:
 
 .filterable-item { padding: 0 15px; width: 24.9%; float: left; }
 @media screen and (max-width: 768px) { .filterable-item { width: 50%; } }
+@media screen and (min-width: 990px) { 
+.footer-social-media { display: flex;justify-content: center;}
+.footer-social-media-title { text-align: center;}
+ }
+ @media screen and (max-width: 990px) { 
+.slider-mobile-visible { display: none !important;}
+}
+ @media screen and (min-width: 990px) { 
+.slider-desktop-visible { display: none !important;}
+}
+ }
 @media screen and (max-width: 480px) { .filterable-item { width: 100%; } }
 
 /**** disabling Isotope CSS3 transitions ****/
